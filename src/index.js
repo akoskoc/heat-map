@@ -16,9 +16,6 @@ import Footer from "./components/footer"
 const store = createStore(reducer)
 
 
-
-
-
 class App extends React.Component {
     render() {
         return(
