@@ -11,6 +11,7 @@ import reducer from "./reducer/reducer"
 /* Components */
 import Graph from './components/graph';
 import Footer from "./components/footer"
+import Title from "./components/title"
 
 /* Create store */
 const store = createStore(reducer)
@@ -20,6 +21,7 @@ class App extends React.Component {
     render() {
         return(
             <div>
+                <Title />
                 <Graph />
                 <Footer />
             </div>
