@@ -8,12 +8,14 @@ import './styles/main.css';
 /* Reducer */
 import reducer from "./reducer/reducer"
 
+/* Components */
+import Graph from './components/graph';
+import Footer from "./components/footer"
+
 /* Create store */
 const store = createStore(reducer)
 
-/* Components */
-import Graph from './components/graph';
-import Footer from "./ccomponents/footer"
+
 
 
 
@@ -21,7 +23,7 @@ class App extends React.Component {
     render() {
         return(
             <div>
-                <Grap />
+                <Graph />
                 <Footer />
             </div>
         )
