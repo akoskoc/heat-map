@@ -1,10 +1,12 @@
 * {
   padding: 0;
   margin: 0;
-  box-sizing: 0; }
+  box-sizing: 0;
+}
 
 html {
-  height: 100%; }
+  height: 100%;
+}
 
 body {
   font-family: "arial";
@@ -14,59 +16,56 @@ body {
   /* Title */
   /* Tooltip */
   /* SVG */
-  /* Footer */ }
-  body .title {
-    text-align: center;
-    font-size: 14px;
-    margin: 13px 0px; }
-    body .title h1 {
-      color: #181818; }
-    body .title h2 {
-      color: #2b2b2b; }
-    body .title p {
-      font-size: 13px; }
-  body .tooltip {
-    color: white;
-    position: absolute;
-    background-color: rgba(0, 0, 0, 0.9);
-    font-weight: 600;
-    padding: 10px;
-    border-radius: 5px;
-    pointer-events: none;
-    opacity: 0;
-    transition: opacity 200ms; }
-    body .tooltip p {
-      padding: 2px; }
-  body .container {
-    margin: 0px auto 0px auto;
-    width: 1400px;
-    height: 780px; }
-    body .container svg {
-      background-color: white;
-      box-shadow: 0px 0px 5px black; }
-      body .container svg .tick {
-        font-size: 12px;
-        font-family: monospace; }
-      body .container svg .text {
-        font-weight: 600; }
-      body .container svg .y-axis .tick line {
-        display: none; }
-      body .container svg .y-axis .domain {
-        display: none; }
-  body footer {
-    position: absolute;
-    bottom: 0;
-    width: 100%;
-    height: 60px;
-    text-align: center;
-    font-size: 12px;
-    color: white;
-    background-color: #070d17; }
-    body footer p {
-      margin-top: 10px; }
-    body footer a {
-      text-decoration: none;
-      color: #15a18c;
-      font-weight: 600; }
+}
+body .title {
+  text-align: center;
+  font-size: 14px;
+  margin: 13px 0px;
+}
+body .title h1 {
+  color: #181818;
+}
+body .title h2 {
+  color: #2b2b2b;
+}
+body .title p {
+  font-size: 13px;
+}
+body .tooltip {
+  color: white;
+  position: absolute;
+  background-color: rgba(0, 0, 0, 0.9);
+  font-weight: 600;
+  padding: 10px;
+  border-radius: 5px;
+  pointer-events: none;
+  opacity: 0;
+  transition: opacity 200ms;
+}
+body .tooltip p {
+  padding: 2px;
+}
+body .container {
+  margin: 0px auto 0px auto;
+  width: 1400px;
+  height: 780px;
+}
+body .container svg {
+  background-color: white;
+  box-shadow: 0px 0px 5px black;
+}
+body .container svg .tick {
+  font-size: 12px;
+  font-family: monospace;
+}
+body .container svg .text {
+  font-weight: 600;
+}
+body .container svg .y-axis .tick line {
+  display: none;
+}
+body .container svg .y-axis .domain {
+  display: none;
+}
 
 /*# sourceMappingURL=main.css.map */

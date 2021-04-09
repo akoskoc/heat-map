@@ -1,4 +1,1 @@
-# heat-map
-Heat map for freecodecamp data visualisation challenges.
-
-https://absolitudo.github.io/heat-map/
+https://akoskoc.github.io/heat-map/
